@@ -71,3 +71,18 @@ iframe {
 }
 
 /* product stylings */
+
+/* Contact Page */
+.ContactTop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+   
+}
+.topLinks{
+    color: #E5E7EB;
+    font-weight: 48px extra-bold;
+}
+.logo{
+    color: #F9FAF8;
+}
