@@ -1,7 +1,5 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-Regular.ttf) format('truetype');
-}
+
+
 
 * {
     margin: 0;
@@ -79,6 +77,93 @@ li {
 
 }
 
-.photo {
-    
+
+
+
+/* Universal stylings */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* products page */
+/* header stylings */
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+}
+
+.page-links {
+    display: flex;
+}
+
+.page-links a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* About us stylings */
+/* Text */
+
+
+.about-us {
+    display: flex;
+    margin-top: 10vh
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+/* image */
+
+iframe {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    rotate: 90deg;
+    width: auto;
+    top: 0;
+    left: 0;
+}
+
+
+.image-holder {
+    display: flex;
+}
+.image-holder img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* product stylings */
+
+/* Contact Page */
+.ContactTop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+   
+}
+.topLinks{
+    color: #E5E7EB;
+    font-weight: 48px extra-bold;
+}
+.logo{
+    color: #F9FAF8;
 }
