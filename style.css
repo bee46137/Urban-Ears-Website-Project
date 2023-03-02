@@ -176,3 +176,14 @@ iframe {
 .logo{
     color: #F9FAF8;
 }
+
+#writing{
+    color: #e5e7eb;
+    font-family: 'Roboto' , sans-serif;
+}
+.Contact{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 5% 8%;
+}
