@@ -96,8 +96,6 @@ li {
     color: #1f2937;
 }
 
-
-
 /* products page */
 /* header stylings */
 
@@ -110,6 +108,7 @@ li {
 .menu li:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #3882F6;
 }
 
 
@@ -128,31 +127,30 @@ li {
 .about-us-text{
     width: 60%;
     font-family: 'Roboto';
+    font-size: 26px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     line-height: 2rem;
+    border: 3px solid #3882f6;
+    padding: 20px;
 }
 
 .image-holder {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
-   
 }
 
 .about-us-photo{
-    height: 30vh;
+    height: 40vh;
     width: auto;
     border-radius: 50%;
-    rotate: 90deg;
-    
+    rotate: 90deg; 
 }
-
-
-
 
 /* product stylings */
 /* Product element*/
@@ -220,6 +218,47 @@ li {
     border-radius: 10%;
 }
 
+.product:hover p {
+    color: #3882f6;
+}
+
+/* CALL TO ACTION STYLINGS */
+
+.call-to-action {
+    width: 100%;
+    padding: 60px;
+}
+
+.cta-content {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.cta-text {
+    color: white;
+    line-height: 2rem;
+}
+
+.cta-content button {
+    border: 3px solid white;
+    background-color: white;
+    padding: 10px;
+    color: #3882F6;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 20px;
+    transition: scale 350ms;
+}
+.cta-content button:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
 /* FOOTER STYLINGS - PRODUCTS/ABOUT US */
 
 footer {
@@ -237,9 +276,17 @@ footer {
     justify-content: center;
 }
 
-.footer .back-to-top a{
+.back-to-top a{
+    font-size: 1rem;
+    padding: 10px;
     text-decoration: none;
     color: white;
+    border-radius: 10%;
+    border: 3px solid #3882f6;
+}
+
+.back-to-top a:hover {
+    background-color: #3882f6;
 }
 
 
