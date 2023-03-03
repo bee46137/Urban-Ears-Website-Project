@@ -77,12 +77,14 @@ li {
     }
 
 .banner {
-    background-color: #1f2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5% 8%;
-}
+     background-color: #1f2937;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5% 8%;
+     flex-wrap: wrap;
+     overflow: hidden;
+    }
 
 .banner h1 {
     font-size: 48px;
