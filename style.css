@@ -9,10 +9,29 @@
 
 
 /* HOME PAGE STYLINGS */
-
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-ThinItalic.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Medium.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -169,7 +188,7 @@ h1.quote-writer {
     align-items: center;
     background: #3882F6;
     border-radius: 15px;
-    padding: 15px;
+    padding: 30px;
 }
 
 .cta-text-home {
