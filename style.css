@@ -89,12 +89,55 @@ li {
 
 }
 
-.products h2 {
+.products-title h2 {
     font-size: 36px;
     font-family: 'Roboto';
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
+    padding: 50px;
 }
+
+.products-home {
+    z-index: 0;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5% 8%;
+    
+    
+}
+
+.products-home p {
+    color: #E5E7EB;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;   
+    
+
+} 
+
+
+.product-home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: fill;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.product-home img {
+    height: auto;
+    width: 50%;
+   
+}
+
 
 /* products page */
 /* header stylings */
@@ -110,6 +153,8 @@ li {
     text-decoration: underline;
     color: #3882F6;
 }
+
+
 
 
 /* About us stylings */
