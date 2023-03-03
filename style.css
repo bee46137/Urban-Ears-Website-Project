@@ -4,11 +4,6 @@
     src: url(fonts/Roboto-Regular.ttf) format('truetype');
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
 
 a {
     text-decoration: none;
@@ -89,19 +84,12 @@ li {
 
 
 
-
-/* Universal stylings */
-
-* {
-    box-sizing: border-box;
-    margin: 0px;
-}
-
 /* products page */
 /* header stylings */
 
 
 header {
+    z-index: 1;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -110,6 +98,7 @@ header {
     height: 10vh;
     position: fixed;
     top: 0;
+    left: 0;
 }
 
 .page-links {
@@ -138,29 +127,48 @@ header {
     background-color: #1F2937;
 }
 
-/* image */
 
-iframe {
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    rotate: 90deg;
-    width: auto;
-    top: 0;
-    left: 0;
-}
-
-
-.image-holder {
-    display: flex;
-}
-.image-holder img{
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
 
 /* product stylings */
+/* Product element*/
+
+.products {
+    z-index: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.product {
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+}
+
+.product img {
+    height: 50%;
+    width: auto;
+   
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.products > .product {
+    transition: scale 550ms ease, opacity 450ms linear;
+}
+
+.products:has(.product:hover) .product:not(:hover) {
+    scale: 0.8;
+    opacity: 0.7;
+}
+
 
 /* Contact Page */
 .ContactTop{
