@@ -21,7 +21,6 @@ li {
     background-color: #1f2937;
     color: #e5e7eb;
     font-family: 'Roboto' , sans-serif;
-    
     }
 
 .nav-links a {
@@ -143,7 +142,7 @@ header {
 }
 
 .product {
-    
+    padding: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -167,6 +166,28 @@ header {
 .products:has(.product:hover) .product:not(:hover) {
     scale: 0.8;
     opacity: 0.7;
+}
+
+/* FOOTER STYLINGS - PRODUCTS/ABOUT US */
+
+footer {
+    height: 10vh;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .back-to-top a{
+    text-decoration: none;
+    color: white;
 }
 
 
