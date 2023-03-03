@@ -95,7 +95,7 @@ li {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    padding: 50px;
+    padding: 50px 50px 50px 0;
 }
 
 .products-home {
@@ -105,9 +105,7 @@ li {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    padding: 5% 8%;
-    
-    
+    padding: 1% 8%;
 }
 
 .products-home p {
@@ -119,9 +117,7 @@ li {
 
 } 
 
-
 .product-home {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,6 +132,11 @@ li {
     height: auto;
     width: 50%;
    
+}
+
+.product-home img {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
 
 
