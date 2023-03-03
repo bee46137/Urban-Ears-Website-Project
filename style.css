@@ -182,7 +182,19 @@ iframe {
     font-family: 'Roboto' , sans-serif;
 }
 .Contact{
+    display: flex;
     background-color: #1f2937;
     align-items: center;
     padding: 5% 8%;
 }
+
+.links  {
+    padding: 15%;
+    background-color: #3882F6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15%;
+  }
