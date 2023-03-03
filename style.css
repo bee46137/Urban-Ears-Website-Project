@@ -228,10 +228,18 @@ footer {
     border-radius: 15%;
   }
   .banner1-2 {
-    background-color: #EFE7EB;
+    background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5% 8%;
     font-weight: 36px;
+    font-style: light italic;
+}
+.FAQ{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 5% 8%;
+    font-family: 'Roboto' , sans-serif;
 }
