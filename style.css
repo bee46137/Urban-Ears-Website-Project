@@ -198,3 +198,11 @@ iframe {
     display: inline-block;
     border-radius: 15%;
   }
+  .banner1-2 {
+    background-color: #EFE7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 8%;
+    font-weight: 36px;
+}
