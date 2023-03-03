@@ -161,7 +161,7 @@ header {
 }
 
 .products > .product {
-    transition: scale 450ms ease, opacity 450ms linear;
+    transition: scale 550ms ease, opacity 450ms linear;
 }
 
 .products:has(.product:hover) .product:not(:hover) {
