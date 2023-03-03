@@ -190,7 +190,27 @@ header {
     font-family: 'Roboto' , sans-serif;
 }
 .Contact{
+    display: flex;
     background-color: #1f2937;
     align-items: center;
     padding: 5% 8%;
+}
+
+.links  {
+    padding: 15%;
+    background-color: #3882F6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15%;
+  }
+  .banner1-2 {
+    background-color: #EFE7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 8%;
+    font-weight: 36px;
 }
