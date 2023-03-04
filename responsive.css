@@ -19,6 +19,17 @@
 
 @media (max-width: 800px) and (min-width: 640px) {
 
+    /*Products Home page*/
+    .products-home {
+        z-index: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 1% 8%;
+    }
+
     /* ABOUT US SECTION */
     .products-about-us {
         padding: 12% 5% 5% 5%;
@@ -30,6 +41,7 @@
     footer {
         padding: 50px;
     }
+
 
 }
 
