@@ -1,0 +1,54 @@
+@media (max-width: 1000px) and (min-width: 800px){
+    /* ABOUT US SECTION */
+
+    .products-about-us {
+        padding: 10% 5% 5% 5%;
+    }
+    .about-us-text {
+        font-size: 1.3rem;
+    }
+    /* CTA SECTION */
+    footer {
+        padding: 40px;
+    }
+
+}
+
+
+
+
+@media (max-width: 800px) and (min-width: 640px) {
+
+    /* ABOUT US SECTION */
+    .products-about-us {
+        padding: 12% 5% 5% 5%;
+    }
+    .about-us-text {
+        font-size: 1.1rem;
+    }
+    /* CTA SECTION */
+    footer {
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 640px) and (min-width: 490px) {
+
+    /* ABOUT US SECTION */
+    .products-about-us {
+        padding: 19% 5% 5% 5%;
+    }
+    .about-us-text {
+        font-size: 1rem;
+    }
+    .about-us-photo {
+        rotate: 0deg;
+    }
+    /* CTA SECTION */
+    footer {
+        padding: 50px;
+    }
+
+
+}
