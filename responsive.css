@@ -95,6 +95,18 @@
 
 @media (max-width: 640px) and (min-width: 425px) {
 
+    /* PRODUCTS PAGE */
+    /* ABOUT US SECTION */
+    
+    .about-us-text {
+        width: 100%;
+    }
+
+    .products-about-us img{
+        display: none;
+    }
+
+
     /*Products Home page*/
     .title-header {
         padding-top: 20%;

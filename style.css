@@ -36,13 +36,6 @@
 }
 
 
-a {
-    text-decoration: none;
-    }
-
-li {
-    list-style: none;
-}
 
 .navbar {
     display: flex;
@@ -225,30 +218,56 @@ h1.quote-writer {
     
 }
 
-.back-to-topp a:hover {
+.back-to-top a:hover {
     background-color: #3882f6;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* products page */
-/* header stylings */
+/* HEADER STYLINGS */
 
 
-.menu li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menu li:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: #3882F6;
-}
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #1F2937;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+    }
+    
+    nav a {
+        color: white;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #3882F6;
+    }
 
-
-
-
-/* About us stylings */
-/* Text */
+/* ABOUT US SECTION - PRODUCTS PAGE */
 
 .products-about-us {
     display: flex;
@@ -363,6 +382,10 @@ h1.quote-writer {
     padding: 60px;
 }
 
+.cta-content h4 {
+    font-size: 2rem;
+}
+
 .cta-content {
     font-family: 'Roboto';
     display: flex;
@@ -396,7 +419,7 @@ h1.quote-writer {
 /* FOOTER STYLINGS - PRODUCTS/ABOUT US */
 
 footer {
-    height: 15vh;
+    height: 8vh;
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -423,6 +446,13 @@ footer {
 .back-to-top a:hover {
     background-color: #3882f6;
 }
+
+
+
+
+
+
+
 
 
 /* Contact Page */
