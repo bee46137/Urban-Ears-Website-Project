@@ -461,14 +461,22 @@ footer {
     border-radius: 15%;
   }
   .banner1-2 {
+    width: 100%;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5% 8%;
     font-weight: 36px;
     font-style: light italic;
 }
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+
 .FAQ-section{
     display: flex;
     flex-direction: column;
