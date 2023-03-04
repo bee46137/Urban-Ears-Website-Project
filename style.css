@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 
@@ -468,10 +469,41 @@ footer {
     font-weight: 36px;
     font-style: light italic;
 }
-.FAQ{
+.FAQ-section{
     display: flex;
+    flex-direction: column;
     background-color: white;
     align-items: center;
     padding: 5% 8%;
     font-family: 'Roboto' , sans-serif;
+}
+
+.FAQs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid #1f2937;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.FAQ-text {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.FAQ-answer {
+    padding: 10px;
 }
