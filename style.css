@@ -145,6 +145,7 @@ li {
     object-fit: fill;
     text-align: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .product-home img {

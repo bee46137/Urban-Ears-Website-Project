@@ -21,7 +21,7 @@
     .title-header {
         padding-top: 20%;
     }
-    
+
     .products-home {
         z-index: 0;
         display: flex;
@@ -38,7 +38,7 @@
         font-weight: 900;
         color: #1f2937;
         text-align: center;
-        padding: 50px 0;
+        padding: 50px 10px;
     }
 
     p.testimonal {
@@ -116,7 +116,7 @@
         font-weight: 900;
         color: #1f2937;
         text-align: center;
-        padding: 50px 0;
+        padding: 50px 10px;
     }
 
     p.testimonal {
@@ -173,7 +173,7 @@
         font-weight: 900;
         color: #1f2937;
         text-align: center;
-        padding: 50px 0;
+        padding: 50px 10px;
     }
 
     p.testimonal {
