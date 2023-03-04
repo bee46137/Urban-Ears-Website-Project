@@ -507,3 +507,7 @@ footer {
 .FAQ-answer {
     padding: 10px;
 }
+
+.Quote{
+    font-style: italic;
+}
