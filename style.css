@@ -9,10 +9,29 @@
 
 
 /* HOME PAGE STYLINGS */
-
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-ThinItalic.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Medium.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -58,12 +77,14 @@ li {
     }
 
 .banner {
-    background-color: #1f2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5% 8%;
-}
+     background-color: #1f2937;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5% 8%;
+     flex-wrap: wrap;
+     overflow: hidden;
+    }
 
 .banner h1 {
     font-size: 48px;
@@ -89,11 +110,121 @@ li {
 
 }
 
-.products h2 {
+.products-title h2 {
     font-size: 36px;
     font-family: 'Roboto';
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
+    padding: 50px 50px 50px 0;
+}
+
+.products-home {
+    z-index: 0;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 1% 8%;
+}
+
+.products-home p {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding-top: 20px; 
+} 
+
+.product-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: fill;
+    text-align: center;
+    align-items: center;
+}
+
+.product-home img {
+    height: auto;
+    width: 50%;
+   
+}
+
+.product-home img {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.banner-testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 8%;
+    margin-top: 50px;
+}
+
+p.testimonal {
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    font-size: 36px;
+    color: #1f3927;
+    font-style: italic;
+}
+
+h1.quote-writer {
+    font-family: 'Roboto';
+}
+
+.call-to-action-home {
+    width: 100%;
+    padding: 60px;
+}
+
+.cta-content-home {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.cta-text-home {
+    color: white;
+    line-height: 2rem;
+}
+
+.cta-content-home button {
+    border: 3px solid #f9faf8;
+    background: transparent;
+    padding: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 12px;
+    transition: scale 350ms;
+}
+
+.cta-content-home button a {  
+    color: #f9faf8;
+}  
+
+.back-to-topp a{
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    color: #f9faf8;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    
+}
+
+.back-to-topp a:hover {
+    background-color: #3882f6;
 }
 
 /* products page */
@@ -110,6 +241,8 @@ li {
     text-decoration: underline;
     color: #3882F6;
 }
+
+
 
 
 /* About us stylings */
@@ -273,6 +406,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto'
 }
 
 .back-to-top a{
