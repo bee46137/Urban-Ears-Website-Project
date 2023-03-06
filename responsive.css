@@ -85,6 +85,21 @@
     .about-us-text {
         font-size: 1.1rem;
     }
+
+    .image-holder img{
+        height: 40vh;
+        width: auto;
+        border-radius: 50%;
+        rotate: 90deg; 
+    }
+    
+
+    /* PRODUCT SECTION */
+    .product-text {
+        align-items: center;
+        text-align: center;
+    }
+
     /* CTA SECTION */
     footer {
         padding: 50px;
@@ -93,11 +108,14 @@
 
 }
 
-@media (max-width: 640px) and (min-width: 425px) {
+@media (max-width: 640px) and (min-width: 400px) {
 
     /* PRODUCTS PAGE */
     /* ABOUT US SECTION */
     
+    .products-about-us {
+        margin-top: 80px;
+    }
     .about-us-text {
         width: 100%;
     }
@@ -106,6 +124,24 @@
         display: none;
     }
 
+    .product img {
+        max-width: 400px;
+    }
+
+    .image-holder-coming-soon {
+        width: 400px;
+        height: 467px;
+    }
+
+    .product {
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .product-text {
+        align-items: center;
+        text-align: center;
+    }
 
     /*Products Home page*/
     .title-header {
@@ -227,17 +263,23 @@
 
     /* ABOUT US SECTION */
     .products-about-us {
-        padding: 19% 5% 5% 5%;
+        padding: 5% 5% 5% 5%;
     }
     .about-us-text {
         font-size: 1rem;
     }
-    .about-us-photo {
-        rotate: 0deg;
-    }
+    
     /* CTA SECTION */
     footer {
         padding: 50px;
+    }
+
+    .cta-content {
+        flex-direction: column;
+    }
+
+    .cta-text {
+        margin: 10px 0;
     }
 
 
