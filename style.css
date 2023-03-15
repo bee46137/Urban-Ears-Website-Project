@@ -284,7 +284,7 @@ h1.quote-writer {
     font-size: 26px;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     line-height: 2rem;
@@ -443,74 +443,90 @@ footer {
 
 
 /* Contact Page */
-.ContactTop{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1F2937;
-   
-}
-.topLinks{
-    color: #E5E7EB;
-    font-weight: 48px extra-bold;
-}
-.logo{
-    color: #F9FAF8;
-}
+/* CONTACT US TOP */
 
-#writing{
-    color: #e5e7eb;
-    font-family: 'Roboto' , sans-serif;
+.contact-us {
+    margin-top: 5rem;
 }
-.Contact{
+.contact-us .icons {
     display: flex;
-    background-color: #1f2937;
-    align-items: center;
-    padding: 5% 8%;
+    justify-content: space-around;
 }
-
-.links  {
-    padding: 15%;
-    background-color: #3882F6;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 15%;
-  }
-  .banner1-2 {
-    width: 100%;
-    background-color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5% 8%;
-    font-weight: 36px;
-    font-style: light italic;
-}
-
-.Quote {
+.contact-us .icon {
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us .icon i {
+    padding: 20px;
+    font-size: 2rem;
+    transition: scale 350ms ease, opacity 450ms linear;
+}
+.contact-us .icon a {
+    padding: 20px;
+    font-size: 2rem;
+    color: black;
+    transition: scale 350ms ease, opacity 450ms linear;
+}
+.contact-us .icon i:hover {
+    scale: 2;
+    cursor: pointer;
+    color: #3882f6;
+}
+.contact-us .icon a:hover {
+    scale: 2;
+    cursor: pointer;
+    color: #3882f6;
+    text-decoration: none;
+}
+.contact-us aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 50px 0;
 }
 
-.FAQ-section{
+/* BLOCKQUOTE SECTION */
+
+.blockquote-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+    width: 90%;
+    padding: 5%;
+    margin: 2%  5%;
+    border: #adabaa 5px solid;
+    background: url(./img/headphones\ graphic.png) no-repeat center 100%;
+    background-size: 100%;
+    height: 17rem;
+}
+.blockquote-section img {
+    border-radius: 50%;
+    display: flex;
+    border: white 2px solid;
+}
+
+/* FAQ SECTION */
+
+.FAQ-section {
     display: flex;
     flex-direction: column;
     background-color: white;
     align-items: center;
     padding: 5% 8%;
     font-family: 'Roboto' , sans-serif;
-}
 
-.FAQs {
     width: 100%;
+}
+.FAQs {
     display: flex;
     flex-wrap: wrap;
 }
-
-.FAQ {
+.FAQ-section dl {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -524,16 +540,10 @@ footer {
     background-color: #E5E7EB;
     color: #1F2937;
 }
-
-.FAQ-text {
+.FAQ-section dt {
     padding: 10px;
     font-size: 1.3rem;
 }
-
-.FAQ-answer {
+.FAQ-section dd {
     padding: 10px;
-}
-
-.Quote{
-    font-style: italic;
 }
