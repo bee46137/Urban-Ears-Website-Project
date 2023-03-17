@@ -159,15 +159,13 @@
     justify-content: center;
     padding: 5% 8%;
     margin-top: 50px;
-}
-
-p.testimonal {
     font-family: 'Roboto';
     letter-spacing: 1.2px;
     font-size: 36px;
     color: #1f3927;
     font-style: italic;
 }
+
 
 h1.quote-writer {
     font-family: 'Roboto';
