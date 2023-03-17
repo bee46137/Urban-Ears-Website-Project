@@ -104,6 +104,18 @@
 
 }
 
+button {
+    border: 3px solid #f9faf8;
+    background: transparent;
+    padding: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 12px;
+    transition: scale 350ms;
+    margin-top: 15px;
+}
+
 .products-title h2 {
     font-size: 36px;
     font-family: 'Roboto';
